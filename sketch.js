@@ -11,7 +11,7 @@ function setup(){
     world = engine.world;
 
     var ground_options ={
-        isStatic: true
+        isStatic: false
     }
 
     ground = Bodies.rectangle(200,390,200,20,ground_options);
